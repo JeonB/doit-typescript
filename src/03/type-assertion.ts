@@ -1,3 +1,4 @@
+// 타입 단언 - (<타입>객체) (객체 as 타입)
 export default interface Inameable {
   name: string;
 }
