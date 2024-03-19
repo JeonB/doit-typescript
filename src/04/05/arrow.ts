@@ -1,6 +1,5 @@
-export type Person = { name: string; age: number };
-
-export const makePerson = (name: string, age: number = 10): Person => ({
+type Person = { name: string; age: number };
+const makePerson = (name: string, age: number = 10): Person => ({
   name,
   age,
 });
