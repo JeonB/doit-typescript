@@ -1,4 +1,4 @@
-import { range } from "../01/rage-test";
+import { range } from "../01/range-test";
 import { fold } from "./fold";
 import { map } from "./map";
 

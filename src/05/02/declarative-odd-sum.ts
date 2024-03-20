@@ -1,5 +1,5 @@
 import { filter } from "ramda";
-import { range } from "../01/rage-test";
+import { range } from "../01/range-test";
 import { fold } from "./fold";
 
 let numbers: number[] = range(1, 100 + 1);

@@ -1,4 +1,4 @@
-import { range } from "../01/rage-test";
+import { range } from "../01/range-test";
 
 let reduceSum: number = range(1, 100 + 1).reduce(
   (result, value) => result + value,

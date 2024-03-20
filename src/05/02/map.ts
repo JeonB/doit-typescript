@@ -1,3 +1,4 @@
+// 입력 타입 T가 출력 타입 Q로 바뀔 수 있음
 export const map = <T, Q>(
   array: T[],
   callback: (value: T, index?: number) => Q
